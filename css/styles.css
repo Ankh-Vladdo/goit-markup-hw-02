@@ -22,40 +22,6 @@
   text-decoration: none;
   text-transform: none;
 }
-
-.subtitle {
-  font-size: 36px;
-  font-family: "Roboto";
-  font-weight: 700;
-  font-style: normal;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: #2e2f42;
-  text-align: center;
-}
-.subtitle-second {
-  font-size: 20px;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-style: normal;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  text-transform: none;
-  color: #2e2f42;
-}
-.text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
 .list {
   list-style: none;
 }
@@ -92,7 +58,7 @@
 }
 
 .address {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -141,6 +107,30 @@
   cursor: pointer;
 }
 /* ?About section  */
+.subtitle-about {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: none;
+  color: #2e2f42;
+}
+
+.benefits-subtitle {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+}
 
 
 /* ?Team section  */
@@ -148,7 +138,7 @@
   background-color: #f4f4fd;
 }
 .team-subtitle {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -159,6 +149,29 @@
   color: #2e2f42;
   text-decoration: none;
 }
+.subtitle-name {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+text-transform: capitalize;
+}
+.profession-text {
+  font-family: "Roboto",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  text-align: center;
+}
+
 /* ?Footer */
 .footer {
   background-color: #2e2f42;
@@ -169,14 +182,14 @@
   font-family: "Raleway", sans-serif;
 }
 .footer-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #f4f4fd;
-  text-decoration: none; 
+  text-decoration: none;
 }
 .footer-logo-right {
   color: #f4f4fd;
@@ -204,7 +217,7 @@
 }
 
 .subtitle-second {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -213,8 +226,8 @@
   color: #2e2f42;
   text-decoration: none
 }
-.text {
-  font-family: "Roboto";
+.project-text {
+  font-family: "Roboto", sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
