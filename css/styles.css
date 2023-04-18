@@ -73,7 +73,6 @@
   color: #404bbf;
 }
 
-
 /* ?Hero section */
 .hero {
   background-color: #2e2f42;
@@ -94,8 +93,8 @@
   text-align: center;
 }
 .hero-button:is(:hover, :focus) {
-  color: #FFFFFF;
-  background-color: var(--color-ocean, #404BBF);
+  color: #ffffff;
+  background-color: var(--color-ocean, #404bbf);
 }
 
 .hero-button {
@@ -137,7 +136,7 @@
 
 /* ?Team section  */
 .team {
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 .team-subtitle {
   font-family: "Roboto", sans-serif;
@@ -152,21 +151,21 @@
   text-decoration: none;
 }
 .team-item {
-background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .subtitle-name {
-font-family: "Roboto", sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.02em;
-color: #2E2F42;
-text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .profession-text {
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -202,8 +201,8 @@ text-transform: capitalize;
 /* !Portfolio */
 /* ?Menu filter button */
 .filter-button:is(:hover, :focus) {
-color: #FFFFFF;
-background-color: var(--color-ocean, #404BBF);
+  color: #ffffff;
+  background-color: var(--color-ocean, #404bbf);
 }
 
 .filter-button {
@@ -220,7 +219,9 @@ background-color: var(--color-ocean, #404BBF);
   text-decoration: none;
   cursor: pointer;
 }
-
+.link {
+  text-decoration: none;
+}
 
 .subtitle-second {
   font-family: "Roboto", sans-serif;
@@ -230,7 +231,16 @@ background-color: var(--color-ocean, #404BBF);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none
+  text-decoration: none;
+}
+.project-subtitle {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .project-text {
   font-family: "Roboto", sans-serif;
@@ -240,5 +250,5 @@ background-color: var(--color-ocean, #404BBF);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none
+  text-decoration: none;
 }
