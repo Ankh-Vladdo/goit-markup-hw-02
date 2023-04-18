@@ -54,7 +54,7 @@
 }
 .link:hover,
 .link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .address {
@@ -68,6 +68,11 @@
   list-style: none;
   text-decoration: none;
 }
+.address:hover,
+.address:focus {
+  color: #404bbf;
+}
+
 
 /* ?Hero section */
 .hero {
@@ -88,13 +93,13 @@
   color: #ffffff;
   text-align: center;
 }
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--color-ocean);
+.hero-button:is(:hover, :focus) {
+  color: #FFFFFF;
+  background-color: var(--color-ocean, #404BBF);
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   color: #ffffff;
   font-style: normal;
@@ -130,10 +135,9 @@
   text-align: center;
 }
 
-
 /* ?Team section  */
 .team {
-  background-color: #f4f4fd;
+  background-color: #FFFFFF
 }
 .team-subtitle {
   font-family: "Roboto", sans-serif;
@@ -152,7 +156,7 @@ font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 1.5;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
@@ -196,8 +200,8 @@ text-transform: capitalize;
 /* ?Menu filter button */
 .filter-button:is(:hover, :focus) {
 color: #FFFFFF;
-background-color: var(--color-ocean, #404BBF);}
-
+background-color: var(--color-ocean, #404BBF);
+}
 
 .filter-button {
   font-family: "Roboto", sans-serif;
@@ -211,6 +215,7 @@ background-color: var(--color-ocean, #404BBF);}
   color: #4d5ae5;
   background-color: var(-- #f4f4fd);
   text-decoration: none
+  cursor: pointer;
 }
 
 .subtitle-second {
