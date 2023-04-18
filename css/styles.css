@@ -216,10 +216,11 @@ background-color: var(--color-ocean, #404BBF);
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  background-color: var(-- #f4f4fd);
-  text-decoration: none
+  background-color: var(--color-cloud);
+  text-decoration: none;
   cursor: pointer;
 }
+
 
 .subtitle-second {
   font-family: "Roboto", sans-serif;
