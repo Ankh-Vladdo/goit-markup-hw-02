@@ -1,6 +1,6 @@
 :root {
-  --primary-font:"Roboto", sans-serif;
-  --secondary-font:'Raleway'sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --color-iris: #4d5ae5;
   --color-ocean: #404bbf;
   --color-navy-blue: #2e2f42;
@@ -30,7 +30,7 @@
 /*? Header section  */
 /* !Logo */
 .logo-left {
-  font-family: 'Raleway';
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -74,7 +74,6 @@
 /* ?Hero section */
 .hero {
   background-color: var(--color-navy-blue);
-
 }
 .hero-title {
   font-family: inherit;
@@ -82,6 +81,7 @@
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   text-decoration: none;
   color: var(--color-white);
 }
@@ -140,7 +140,7 @@
   color: var(--color-grey);
 }
 .team-item {
-  background-color: var(--color-white)
+  background-color: var(--color-white);
 }
 .subtitle-name {
   font-family: inherit;
@@ -167,14 +167,14 @@
 .footer {
   background-color: var(--color-navy-blue);
 }
-.logo-left link{
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height:1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
+.logo-left link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .footer-logo-right {
   color: var(--color-cloud);
