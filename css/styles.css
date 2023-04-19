@@ -31,6 +31,7 @@
 /* !Logo */
 .logo-left {
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -86,6 +87,7 @@
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -157,6 +159,7 @@
 }
 .logo-left link {
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -183,6 +186,7 @@
 }
 
 .filter-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
